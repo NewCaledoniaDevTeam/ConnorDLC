@@ -1,0 +1,55 @@
+{
+  "namespace": "hud",
+
+  "hotbar_slot_image_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 30,
+    "frame_step": 3,
+    "fps": 20,
+    "reversible": true,
+    "easing": "linear"
+  },
+
+  "hotbar_slot_image": {
+    "type": "image",
+    "offset": [ 0, 0 ],
+    "size": [ 20, 22 ],
+    "uv_size": [ 20, 22 ],
+    "uv": "@hotbar_slot_image_animation",
+    "disable_anim_fast_forward": true,
+    "layer": 1,
+    "alpha": 0.65
+  },
+
+  "auto_save_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 9,
+    "frame_step": 18,
+    "fps": 10,
+    "reversible": true,
+    "easing": "linear"
+  },
+
+  "auto_save": {
+    "type": "image",
+    "layer": 31,
+    "texture": "textures/ui/auto_save",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [ -15, 15 ],
+    "size": [ 18, 30 ],
+    "uv_size": [ 18, 30 ],
+    "uv": "@auto_save_animation",
+    "disable_anim_fast_forward": true,
+    "bindings": [
+      {
+        "binding_name": "#auto_save_animation_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  }
+
+
+}

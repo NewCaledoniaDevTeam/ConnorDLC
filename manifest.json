@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Needs New Caledonia Shader Pack",
+        "name": "Connor DLC",
+        "uuid": "bb886847-7620-4f8a-9f40-b70473e36c44",
+        "version": [0, 0, 2],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Example vanilla resource pack",
+            "type": "resources",
+            "uuid": "957cfb7b-f610-44c9-adad-3f222a270d7b",
+            "version": [0, 0, 1]
+        }
+    ]
+}
