@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [BETA]
 
+## [0.0.3] - 2020-12-20
+### Added
+- Open Dyslexic Font from my other project: https://github.com/PiSaucer/OpenDyslexicMCBedrock
+
 ## [0.0.2] - 2020-11-26
 ### Removed
 - old glass

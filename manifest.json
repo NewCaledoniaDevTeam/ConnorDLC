@@ -4,7 +4,7 @@
         "description": "Needs New Caledonia Shader Pack",
         "name": "Connor DLC",
         "uuid": "bb886847-7620-4f8a-9f40-b70473e36c44",
-        "version": [0, 0, 2],
+        "version": [0, 0, 3],
         "min_engine_version": [ 1, 14, 0 ]
     },
     "modules": [
